@@ -19,7 +19,26 @@ Widget build(BuildContext context) {
             
             
             ),
-        ],)
+            Text("Martin de Bane Sanchez",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 25.0,
+              fontWeight: FontWeight.w500,
+              
+              ),
+            ),
+            Text(
+              "FLUTTER DEVELOPER",
+              style: TextStyle(
+                color: Colors.white38,
+                fontSize: 18.0,
+                fontWeight: FontWeight.w300,
+                letterSpacing: 2.0,
+
+                 ),
+            )
+        ],
+        )
     ),
   );
 }
